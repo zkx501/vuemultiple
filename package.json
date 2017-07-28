@@ -1,0 +1,34 @@
+{
+  "name": "vuemultiple",
+  "version": "1.0.0",
+  "description": "vue application for test",
+  "main": "entry.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkx501/vuemultiple.git"
+  },
+  "keywords": [
+    "vue",
+    "multiple"
+  ],
+  "author": "zkx501",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkx501/vuemultiple/issues"
+  },
+  "homepage": "https://github.com/zkx501/vuemultiple#readme",
+  "dependencies": {
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
